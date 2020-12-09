@@ -22,8 +22,8 @@ export class Partido {
 
     jugarPartido() {
 
-        let banderaGolEquipoLocal = 3;
-        let banderaGolEquipoVisitante = 12;
+        let banderaGolEquipoLocal = 5;
+        let banderaGolEquipoVisitante = 17;
 
         for (let index = 0; index < this._minutos; index++) {
             let golMarcado = Math.floor(Math.random() * (0 - 20) + 20);
